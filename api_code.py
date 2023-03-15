@@ -29,8 +29,11 @@ for i in coins:
         crypto['price']=i['quote']['USD']['price']
 
     #print (i['name'],i['symbol'],i['quote']['USD']['price'])
+#Adding comment to test git
 
 print('Inside main code :',crypto)
+
+
 
 
 
