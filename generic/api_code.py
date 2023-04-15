@@ -19,6 +19,8 @@ url='https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest'
 
 response=requests.get(url,params=params,headers=headers).json()
 
+print('API response:',response)
+
 coins=response['data']
 
 crypto={}
